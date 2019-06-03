@@ -1,0 +1,242 @@
+/*** Index page 1**/
+body {
+  font-family: "Lato", sans-serif;
+    background-color: mediumpurple;
+}
+/*** nav stuff**/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+a.option {
+    margin-left: 50px;
+}
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 36px
+}
+.openstuff{
+   text-align: right;
+    font-size:30px;cursor:pointer;
+}
+/*** header background and nav button**/
+.header  {
+    background-color: mediumpurple;
+    background-image: url(wp2601909.jpg);
+    background-size: auto;
+    background-clip: border-box;
+    margin: auto;
+    color: white;
+    padding: 10px;
+    font-family: calibri;
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 10px;
+    height: 150px;
+}
+.header h1{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    text-align: center;
+}
+.header nav{
+    text-align: left;
+    color: white;
+    float: left;
+    
+}
+
+.intro {
+    text-align: center;
+    color: white;
+}
+.buttons {
+    position: absolute;
+    left: 10%;
+    top: 75%;
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 225px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttons span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttons span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttons:hover span {
+  padding-right: 25px;
+}
+
+.buttons:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.buttons1 {
+    position: absolute;
+    top: 75%;
+    left:42%;
+  border-radius: 4px;
+  background-color: lightgreen;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttons1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttons1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttons1:hover span {
+  padding-right: 25px;
+}
+
+.buttons1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.buttons2 {
+    position: absolute;
+    right: 10%;
+    top: 75%;
+  border-radius: 4px;
+  background-color: royalblue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.buttons2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttons2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttons2:hover span {
+  padding-right: 25px;
+}
+
+.buttons2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.blackhole{
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    right: 5.5%;
+    top: 30%;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+.solarflare{
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    left: 5.5%;
+    top: 30%;
+     border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}
+.gammaray{
+    width: 400px;
+    height: 350px;
+    position: absolute;
+    top: 30%;
+    left: 37%;
+      border-radius: 50px;
+    border-style: solid;
+    border-color: white;
+    border-width: 10px;
+}

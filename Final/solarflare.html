@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        </head>
+    <body> 
+        <! Header and stuff >
+        <div class="header">
+            <! button stuff and nav bar >
+                <nav>
+           <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="option" href="solarflare.html">Solar Flares</a>
+            <a class="option" href="#">Gamma Ray Bursts</a>
+            <a class="option" href="#">Clients</a>
+            <a class="option" href="#">Contact</a>
+            <a class="option" href="index.html">Home</a>
+        </div>
+        <span class="openstuff" onclick="openNav()">&#9776;</span>
+        <! rest of that header junk >
+              
+        <h1>The Dangers of Space</h1>
+                    
+        </nav>
+        </div>
+        
+         <script>
+            function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+    </body>
+</html>
