@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./style.css">
+        </head>
+    <body>
+        <! Header and stuff >
+        <div class="header">
+            <! button stuff and nav bar >
+                <nav>
+           <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a class="option" href="solarflare.html">Solar Flares</a>
+            <a class="option" href="gammaray.html">Gamma Ray Bursts</a>
+            <a class="option" href="blackhole.html">Black Holes</a>
+            <a class="option" href="about.html">About</a>
+            <a class="option" href="index.html">Home</a>
+        </div>
+        <span class="openstuff" onclick="openNav()">&#9776;</span>
+        <! rest of that header junk >
+              
+        <h1>The Dangers of Space</h1>
+                    
+        </nav>
+        </div>
+            <div class="intro">
+        <h1>Choose a Carastrophie!</h1>
+                 <img alt="Black Hole Photo" class="blackhole" src="blackhole.PNG"/>
+                <img alt="Gamma Ray Burst photo" class="gammaray" src="gammaray.PNG"/>
+                <img alt="Solar flare photo" class="solarflare" src="solarflares.PNG"/>
+                    
+                <a href="solarflare.html">
+                <button class="buttons"><span>Solar Flares</span></button>
+                </a>
+                 <a href="gammaray.html">
+                <button class="buttons1"><span>Gamma Rays</span></button>
+                </a>
+                 <a href="blackhole.html">
+                <button class="buttons2"><span>Black Holes</span></button>
+                </a>
+        </div>
+
+        <script>
+            function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+    </body>
+</html>
+
