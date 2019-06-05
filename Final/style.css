@@ -90,7 +90,7 @@ a.option {
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 225px;
+  width: 13%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -125,7 +125,7 @@ a.option {
 .buttons1 {
     position: absolute;
     top: 75%;
-    left:42%;
+    left:41%;
   border-radius: 4px;
   background-color: lightgreen;
   border: none;
@@ -133,7 +133,7 @@ a.option {
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 250px;
+  width: 15%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -176,7 +176,7 @@ a.option {
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 250px;
+  width: 13%;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -208,8 +208,8 @@ a.option {
 }
 
 .blackhole{
-    width: 400px;
-    height: 350px;
+    width: 22%;
+    height: 40%;
     position: absolute;
     right: 5.5%;
     top: 30%;
@@ -219,8 +219,8 @@ a.option {
     border-width: 10px;
 }
 .solarflare{
-    width: 400px;
-    height: 350px;
+    width: 22%;
+    height: 40%;
     position: absolute;
     left: 5.5%;
     top: 30%;
@@ -230,13 +230,68 @@ a.option {
     border-width: 10px;
 }
 .gammaray{
-    width: 400px;
-    height: 350px;
+    width: 22%;
+    height: 40%;
     position: absolute;
     top: 30%;
     left: 37%;
       border-radius: 50px;
     border-style: solid;
     border-color: white;
+    border-width: 10px;
+}
+
+
+.paragraph1{
+    color: white;
+    font: calibri;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px
+}
+.solarsun{
+    float: left;
+    width: 50%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 10px;
+    margin: 10px;
+    height: 500px;
+}
+.Gammagamma{
+    float: left;
+    width: 50%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 10px;
+    margin: 10px;
+    height: 600px;
+}
+.Gammagamma2{
+    float: right;
+    width: 50%;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50px;
+    border-width: 10px;
+    margin: 10px;
+    height: 650px;
+}
+.aboutpara{
+    text-align: center;
+    color: white;
+    font-family: serif;
+    font-weight: 400;
+    font-size: 25px
+}
+.tablet {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+     border-style: solid;
+    border-color: white;
+    border-radius: 20px;
     border-width: 10px;
 }
